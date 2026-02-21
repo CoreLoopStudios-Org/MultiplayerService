@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerService.Web", "M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerService.Tests", "MultiplayerService.Tests\MultiplayerService.Tests.csproj", "{202F3E39-192C-4CEC-BE0A-59D5DF9DE602}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplayerService.SignalR", "MultiplayerService.SignalR\MultiplayerService.SignalR.csproj", "{5A680F38-A141-45CB-B31B-4A13E92912D7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{202F3E39-192C-4CEC-BE0A-59D5DF9DE602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{202F3E39-192C-4CEC-BE0A-59D5DF9DE602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{202F3E39-192C-4CEC-BE0A-59D5DF9DE602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A680F38-A141-45CB-B31B-4A13E92912D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A680F38-A141-45CB-B31B-4A13E92912D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A680F38-A141-45CB-B31B-4A13E92912D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A680F38-A141-45CB-B31B-4A13E92912D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
