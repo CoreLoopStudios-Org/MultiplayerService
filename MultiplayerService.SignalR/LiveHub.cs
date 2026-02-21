@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.SignalR;
 
-namespace SignalRDemo.Hubs
+namespace MultiplayerService.SignalR
 {
     public class LiveHub : Hub
     {

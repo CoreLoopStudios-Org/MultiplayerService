@@ -1,4 +1,4 @@
-using SignalRDemo.Hubs;
+using MultiplayerService.SignalR;
 
 var builder = WebApplication.CreateBuilder(args);
 
