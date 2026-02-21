@@ -8,8 +8,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dac2b887-a7d7-42a8-b7df-086649c0b835" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MultiplayerService.SignalR/ChatHub.cs" afterDir="false" />
+    <list default="true" id="dac2b887-a7d7-42a8-b7df-086649c0b835" name="Changes" comment="LiveHub">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MultiplayerService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MultiplayerService/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MultiplayerService.sln" beforeDir="false" afterPath="$PROJECT_DIR$/MultiplayerService.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,8 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MultiplayerService.SignalR/ChatHub.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/24f5857a073841e189d805de9660178ef49910/17/9b9ebfb5/EventArgs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/b832f0c84d8f4194ba80da6636282d1bd2b10/d9/649e01ce/EventArgs.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -53,31 +54,32 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Launch Settings Profile.MultiplayerService.SignalR: http.executor&quot;: &quot;Run&quot;,
-    &quot;.NET Launch Settings Profile.MultiplayerService.Web: http.executor&quot;: &quot;Run&quot;,
-    &quot;Aspire Host.MultiplayerService.AppHost: http.executor&quot;: &quot;Run&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Launch Settings Profile.MultiplayerService.SignalR: http.executor": "Run",
+    ".NET Launch Settings Profile.MultiplayerService.Web: http.executor": "Run",
+    ".NET Project.MultiplayerService.SignalR.CLI.executor": "Run",
+    "Aspire Host.MultiplayerService.AppHost: http.executor": "Run",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.MultiplayerService.SignalR: http">
+}]]></component>
+  <component name="RunManager" selected=".NET Project.MultiplayerService.SignalR.CLI">
     <configuration name="MultiplayerService.AppHost: http" type="AspireHostConfiguration" factoryName="Aspire Host" activateToolWindowBeforeRun="false">
       <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/MultiplayerService.AppHost/MultiplayerService.AppHost.csproj" />
       <option name="PROJECT_TFM" value="net10.0" />
@@ -126,6 +128,27 @@
       <option name="TRACK_URL" value="1" />
       <option name="TRACK_BROWSER_LAUNCH" value="1" />
       <browser url="https://localhost:17177" start="true" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="MultiplayerService.SignalR.CLI" type="DotNetProject" factoryName=".NET Project" activateToolWindowBeforeRun="false" temporary="true">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/MultiplayerService.SignalR.CLI/bin/Debug/net8.0/MultiplayerService.SignalR.CLI.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MultiplayerService.SignalR.CLI/bin/Debug/net8.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="ENV_FILE_PATHS" value="" />
+      <option name="REDIRECT_INPUT_PATH" value="" />
+      <option name="MIXED_MODE_DEBUG" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="AUTO_ATTACH_CHILDREN" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MultiplayerService.SignalR.CLI/MultiplayerService.SignalR.CLI.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="net8.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -226,6 +249,11 @@
         <option name="Build" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue=".NET Project.MultiplayerService.SignalR.CLI" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -235,11 +263,69 @@
       <option name="presentableId" value="Default" />
       <updated>1771662715317</updated>
       <workItem from="1771662719421" duration="2132000" />
+      <workItem from="1771665819881" duration="447000" />
+      <workItem from="1771666619890" duration="19000" />
+      <workItem from="1771666708735" duration="52000" />
+      <workItem from="1771666865808" duration="1710000" />
     </task>
+    <task id="LOCAL-00001" summary="LiveHub">
+      <option name="closed" value="true" />
+      <created>1771666038340</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771666038340</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="6739c21a-e249-4505-94f8-534e34fbe5a8" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="6739c21a-e249-4505-94f8-534e34fbe5a8">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/sohun/RiderProjects/MultiplayerService/MultiplayerService.SignalR" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="LiveHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="LiveHub" />
+  </component>
 </project>
